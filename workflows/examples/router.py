@@ -1,5 +1,5 @@
 from router.routers.routing import create_workflow
-from schemas.routing_schema import RouteType
+from schemas.routing import RouteType
 
 if __name__ == "__main__":
     workflow = create_workflow(RouteType.SINGLE)
